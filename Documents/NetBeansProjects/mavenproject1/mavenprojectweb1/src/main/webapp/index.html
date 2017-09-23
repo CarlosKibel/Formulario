@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    </head>
+    <body>
+
+        <h1> FORMULARIO </h1>
+        <div>
+            <form action = "procesardatos" method = "POST">
+                
+             <p>Nombre</p>               
+             <input type="text" name ="nombre"/>
+             <p>Email</p>
+             <input type="text" name ="email"/>
+             <p>Fecha de nacimiento</p>
+             <input type="date" name ="Fecha"/>
+             <p>telefono</p>
+             <input type="number" name="telefono"/>
+             <p>Sexo</p>
+             <label><input type="radio" id="box1" name="sexo" value="masculino">Hombre</label>
+             <label><input type="radio" id="box2" name="sexo" value="femenino">Mujer</label>
+             <p>Ciudad</p>
+             <select name="ciudad">
+                <option value="santo Domingo">Santo Domingo</option>
+                <option value="Santiago">Santiago</option>
+                <option value="vega">La vega</option>
+                <option value="Perdenales">Perdenales</option>
+             </select>
+
+             <p></p>
+             <input type="submit" name="Enviar"/>
+             <input type="reset" name="Limpiar"/>
+             
+            </form>
+        </div>
+    </body>
+</html>
